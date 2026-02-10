@@ -13,7 +13,8 @@ public class ItemSelectedState implements VendingMachineState //Concrete State C
 	@Override
 	public void dispenseItem(VendingMachine vendingMachine) 
 	{
-		System.out.println("Insert coin(s) first.");
+		System.out.println("Dispensing item...");
+		vendingMachine.TransitiontoNextState(new DispensingState() );
 	}
 
 	@Override
