@@ -1,5 +1,4 @@
-# Lab-Assignment-2-State-Design-Pattern
-
+# Lab SW2 State Pattern AccountTest
 
 **Problem:** A vending machine needs to manage different states, including "Idle", "ItemSelected", "Dispensing", and "OutOfOrder". Each state has specific rules and restrictions regarding allowed operations, and the vending machine has associated attributes like item inventory and balance.
 
@@ -46,8 +45,6 @@
 * Remove state-specific logic from the `VendingMachine` class.
 * Introduce a reference to the current `VendingMachineState` object.
 * Delegate actions like `selectItem`, `insertCoin`, `dispenseItem`, and `setOutOfOrder` to the current state object through its corresponding methods.
-
-
 
 **UML Class Diagram:**
 
