@@ -20,7 +20,7 @@ public class VendingMachine	//Context State Class
 	
 	public void setCurrentState(VendingMachineState State) 
 	{
-		this.CurrentState = CurrentState;
+		this.CurrentState = State;
 	}
 	
 	//Delegate actions
