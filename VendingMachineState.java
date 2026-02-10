@@ -1,5 +1,3 @@
-package labassignment2_statepattern;
-
 public interface VendingMachineState //State Interface
 {
 	public void selectItem(VendingMachine vendingMachine);

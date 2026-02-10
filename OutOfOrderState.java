@@ -1,5 +1,3 @@
-package labassignment2_statepattern;
-
 public class OutOfOrderState implements VendingMachineState //Concrete State Class 4
 {
 

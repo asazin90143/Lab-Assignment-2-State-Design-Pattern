@@ -1,5 +1,3 @@
-package labassignment2_statepattern;
-
 public class ItemSelectedState implements VendingMachineState //Concrete State Class 2
 {
 

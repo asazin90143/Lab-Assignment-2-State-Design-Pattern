@@ -1,6 +1,3 @@
-package labassignment2_statepattern;
-
-
 public class VMachine //Client Class
 {
 

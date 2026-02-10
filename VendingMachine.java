@@ -1,5 +1,3 @@
-package labassignment2_statepattern;
-
 public class VendingMachine	//Context State Class
 {
 	private VendingMachineState CurrentState, NextState;

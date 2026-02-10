@@ -1,5 +1,3 @@
-package labassignment2_statepattern;
-
 public class DispensingState implements VendingMachineState //Concrete State Class 3
 {
 	@Override
